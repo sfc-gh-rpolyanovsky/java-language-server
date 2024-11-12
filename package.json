@@ -119,6 +119,11 @@
                     ],
                     "default": "off",
                     "description": "Traces the communication between VSCode and the language server."
+                },
+                "java.bazelTargets": {
+                    "type": "string",
+                    "description": "Absolute path to your Java home directory",
+                    "default": "..."
                 }
             }
         },
